@@ -100,8 +100,8 @@ if ($stmt->execute()) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'darlingangel0103@gmail.com'; // Use environment variables in production
-            $mail->Password = 'tfji aoop latp zdkm'; // Replace with env variable
+            $mail->Username = ''; // Use environment variables in production
+            $mail->Password = ''; // Replace with env variable
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
