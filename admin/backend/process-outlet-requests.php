@@ -107,7 +107,7 @@ if ($stmt->execute()) {
 
             // Send email to Outlet
             $mail->clearAddresses();
-            $mail->setFrom('darlingangel0103@gmail.com', 'Gas Delivery System');
+            $mail->setFrom('', 'Gas Delivery System');
             $mail->addAddress($outletEmail, $outletName);
             $mail->isHTML(true);
             $mail->Subject = "Delivery Schedule Confirmed";
